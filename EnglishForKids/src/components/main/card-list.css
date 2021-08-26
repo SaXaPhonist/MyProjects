@@ -1,0 +1,25 @@
+.main__wrapper {
+  min-height: 835px;
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-list {
+  max-width: 1400px;
+  min-height: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-list-item {
+  margin-top: 30px;
+  margin-right: 25px;
+  width: 330px;
+  height: 400px;
+}
+

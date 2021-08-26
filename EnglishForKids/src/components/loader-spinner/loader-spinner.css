@@ -1,0 +1,21 @@
+.loader-spinner::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 140px;
+    width: 140px;
+    margin-top: -70px;
+    margin-left: -70px;
+    border-radius: 50%;
+    border: 6px solid lightgray;
+    border-top-color: coral;
+    animation: spinner 0.7s linear infinite;
+  }
+  
+  @keyframes spinner {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  

@@ -1,0 +1,78 @@
+.category-card.admin {
+    cursor: auto;
+}
+
+.pencil {
+    width: 30px;
+    height: 30px;
+}
+
+.category-total__editor {
+    margin-bottom: 50px;
+}
+
+.category-name.admin {
+    width: 250px;
+    height: 30px;
+    border: none;
+    text-align: center;
+    background-color: transparent;
+}
+.category-name__editor {
+    margin-bottom: 50px;
+}
+
+.category-card__content.admin {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 190px;
+}
+
+.category-total__editor {
+    display: flex;
+    flex-direction: row;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.category-total.admin {
+    padding: 0;
+
+}
+
+.pencil {
+    transform: rotate(180deg);
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.category-card__img.admin {
+  left: calc(50% - 90px);
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  top: calc(50% - 90px);
+  cursor: pointer;
+}
+
+.category-card__word-img.category__add-btn {
+    width: 180px;
+}
+
+.control-btns{
+    width: 100%;
+    display:flex ;
+    flex-direction: row;
+    justify-content: space-between;
+    transform: translateY(-45px);
+    padding: 0px 20px;
+}
+
+.control-btn__img {
+    width: 40px;
+    height: 40px;
+
+    cursor: pointer;
+}
