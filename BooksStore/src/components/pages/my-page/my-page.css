@@ -1,0 +1,110 @@
+.card-list__container {
+    display: flex;
+  }
+  
+  .cards-list {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+  
+  .card__container {
+    display: flex;
+    flex-flow: column nowrap;
+    width: auto;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 7px #dfdfdf;
+    background: #fafafa;
+    transition: all 0.5s;
+  }
+  
+  .card__container:hover {
+    transform: translateZ(5px);
+    box-shadow: 0 0.8em 1.5em #dfdfdf;
+  }
+  
+  .list-item {
+    width: 400px;
+    margin-right: 35px;
+  }
+  
+  .content {
+    padding: 20px;
+    display: flex;
+    flex-flow: column nowrap;
+  }
+  
+  .title {
+    cursor: pointer;
+    transition: all 0.3s;
+    color: #363636;
+    margin-bottom: 15px;
+  }
+  
+  .title:hover {
+    color: #fbb72c;
+  }
+  
+  .year,
+  .author {
+    line-height: 8px;
+    color: #999;
+    margin-bottom: 10px;
+  }
+  
+  .price {
+    margin-top: 15px;
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+    font-size: 18px;
+    color: #fbb72c;
+    font-weight: 600;
+  }
+  
+  .price .old-price {
+    font-size: 90%;
+    font-weight: 400;
+    text-decoration: line-through;
+    padding-right: 10px;
+    display: inline-block;
+  }
+  
+  .img__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+  .card-img {
+    min-width: 360px;
+  }
+  
+  .my-card__container {
+    padding-top: 100px;
+  }
+  
+  .no-result {
+    
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  
+  .no-result__text {
+    margin-bottom: 30px;
+    font-size: 32px;
+  }
+  
+  
+  .no-result__link {
+    padding-top: 15px;
+    color: #216f79;
+    font-size: 28px;
+  }
+  
+  .no-result__link:hover { text-shadow: 0 0 6px #216f79; }
+  

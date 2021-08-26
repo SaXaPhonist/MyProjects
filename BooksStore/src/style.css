@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+*,
+*::before,
+*::before {
+  box-sizing: inherit;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+html {
+  box-sizing: border-box;
+  
+}
+
+input[type=number]::-webkit-inner-spin-button{
+  display: none;
+  
+}
+
+.app-wrapper {
+  margin: 0 auto;
+  max-width: 1400px;
+  display: flex;
+  flex-flow: column nowrap;;
+}
+
+
+
+.fade {
+  position: absolute;
+  left: 15px;
+  right: 15px;
+}
+
+.fade-enter {
+  opacity: 0;
+  transform: scale(1.1);
+}
+
+.fade-enter-active {
+  opacity: 1;
+  transform: scale(1);
+  transition: opacity 300ms, transform 300ms;
+}
+
+.fade-exit {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.fade-exit-active {
+  opacity: 0;
+  transform: scale(0.9);
+  transition: opacity 300ms, transform 300ms;
+}

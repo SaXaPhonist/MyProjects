@@ -1,0 +1,4 @@
+.star-list {
+  display: flex;
+  flex-wrap: wrap;
+}

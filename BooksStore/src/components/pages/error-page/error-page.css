@@ -1,0 +1,34 @@
+
+.warning__wrapper {
+  position: relative;
+  max-width: 1300px;
+  height: auto;
+  margin: 2em auto 0 auto;
+}
+
+.warning__container {
+  max-width: 70%;
+  min-height: auto;
+  margin: 0 auto;
+  padding: 1em 1em;
+  text-align: center;
+  background: url("https://phonoteka.org/uploads/posts/2021-04/1618475089_37-p-knigi-na-belom-fone-37.png") no-repeat top 10em center/128px 128px;
+}
+
+.error-code, .error-message:not(:last-of-type) { text-shadow: 0 0 6px #216f79; }
+.error-code {
+  margin: 0 0 1rem 0;
+  font-size: 8em;
+}
+.error-message {
+  margin-bottom: 0.5em;
+  font-size: 3em;
+}
+
+.error-message:first-of-type { margin-top: 4em; }
+
+.error-message > a {
+  color: #216f79;
+}
+
+.error-message > a:hover { text-shadow: 0 0 6px #216f79; }

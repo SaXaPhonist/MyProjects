@@ -1,0 +1,48 @@
+.detail__wrapper {
+    margin:  0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-details__container {
+    display: flex;
+    flex-flow: row;
+}
+
+.info__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding-top: 55px;
+    padding-left: 15px;
+
+}
+
+.card-detail  {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.card-detail > p {
+    padding-top: 10px   ;
+    font-size: 18px;
+    font-weight:200 ;
+}
+
+.card-detail > a {
+    padding-left: 20px;
+}
+
+.img__container {
+    min-height: 550px;
+}
+
+.card-image {
+    min-height: 550px;
+}
+
+.download__container {
+    display: flex;
+    justify-content: center;
+}
